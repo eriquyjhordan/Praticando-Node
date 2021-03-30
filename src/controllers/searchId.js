@@ -1,4 +1,4 @@
-const posts = require('../data');
+const posts = require('../data.json');
 
 const searchId = (id) => {
   const search = posts.find(post => post.id === parseInt(id));
